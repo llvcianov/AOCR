@@ -1,6 +1,6 @@
 # Google Hash Code 2017 — Streaming Videos Optimization
 
-Course project for **Advanced Operations Research and Combinatorial Optimization (AOCR)**, Master's Degree in Computer Engineering, University of Naples Federico II.
+Course project for Combinatorial and Network Optimization Algorithms exam, Master's Degree in Computer Engineering, University of Naples Federico II.
 
 Solves the **Google Hash Code 2017 Qualification Round** problem ("Streaming Videos"): given a central data center holding every video, a set of cache servers with limited capacity, and endpoints (groups of users) each connected to the data center and to some subset of caches with different latencies, decide which videos to replicate on which caches to minimize average request latency — equivalently, to maximize the average time saved per request compared to always serving from the data center.
 
