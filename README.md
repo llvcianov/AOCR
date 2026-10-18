@@ -13,6 +13,10 @@ Implemented in Python:
 - [`soluzione/notebookSoluzione.ipynb`](soluzione/notebookSoluzione.ipynb) — a notebook walking through the problem definition, scoring function, data parsing, and the algorithm/results analysis (with the charts in [`soluzione/immagini/`](soluzione/immagini/)). Best place to start reading.
 - [`soluzione/main.py`](soluzione/main.py) — standalone script entry point to run the solver on a given input file.
 
+## Results
+
+The best strategy (marginal greedy + local search) scores **2,638,527** points total across the 4 instances — only **0.5% below the actual 2017 world champion's score (2,651,999)**. Checked retrospectively against the official qualification round scoreboard (2,815 teams), this would place around **rank 20 out of 2,815** (top ~0.7%). This is a retrospective comparison against the archived contest results, not a live competition entry.
+
 ## Problem instances
 
 The official qualification round provided 4 input files (in [`hashcode_2017_qualification_round.in/`](hashcode_2017_qualification_round.in/)): `kittens`, `me_at_the_zoo`, `trending_today`, `videos_worth_spreading` — ranging from a few endpoints/videos to much larger, more realistic scenarios. Results for each (under different parameter configurations: marginal greedy `M` vs. standard greedy with `K` local-search passes) are in [`output/`](output/).
